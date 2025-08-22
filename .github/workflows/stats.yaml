@@ -17,7 +17,7 @@ jobs:
           WAKATIME_API_URL: https://wakapi.rzegocki.dev
           GH_TOKEN: "${{ secrets.GH_TOKEN }}"
           COMMIT_MESSAGE: "chore: update README.md"
-          DEBUG_LOGGING: "False"
+          DEBUG_LOGGING: "True"
           DEFAULT_TIMEZONE: "Europe/Warsaw"
           IGNORED_REPOS: "nixpkgs"  # too big
 
