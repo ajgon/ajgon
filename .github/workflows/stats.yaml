@@ -19,7 +19,7 @@ jobs:
           COMMIT_MESSAGE: "chore: update README.md"
           DEBUG_LOGGING: "True"
           DEFAULT_TIMEZONE: "Europe/Warsaw"
-          IGNORED_REPOS: "nixpkgs"  # too big
+          IGNORED_REPOS: "nixpkgs, n8n"  # too big
 
           SHOW_UPDATED_DATE: "False"
           SHOW_LINES_OF_CODE: "True"
