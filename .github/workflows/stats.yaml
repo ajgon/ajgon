@@ -9,12 +9,12 @@ name: Wakatime Generator
 jobs:
   update-readme:
     name: Profile Readme Development Stats
-    runs-on: deedee
+    runs-on: ajgon-runner
     steps:
       - uses: ajgon/waka-readme-stats@master
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-          WAKATIME_API_URL: https://wakapi.rzegocki.dev
+          WAKATIME_API_URL: https://wakapi.ajgon.casa
           GH_TOKEN: "${{ secrets.GH_TOKEN }}"
           COMMIT_MESSAGE: "chore: update README.md"
           DEBUG_LOGGING: "True"
